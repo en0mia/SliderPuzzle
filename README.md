@@ -22,6 +22,17 @@ I firstly implemented it following the course's requirements (with their own lib
 
 * You can read something about the A* algorithm [here](https://en.wikipedia.org/wiki/A*_search_algorithm).
 
+### Under the hood
+
+#### Unsolvable boards detection
+There is an interesting property of this algorithm which states that boards are divided into two subsets:
+* Those that can lead to the goal board
+* Those that can lead to the goal board if we modify the initial board by swapping any pair of tiles (using a twin board).
+
+In order to detect an unsolvable board, we can run the algorithm both on the initial board and its twin, maintaining two different queues.
+
+If the twin board leads to a solution, then the initial board is unsolvable.
+
 <!-- LICENSE -->
 ## License
 
