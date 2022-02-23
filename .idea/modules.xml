@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SliderPuzzle.iml" filepath="$PROJECT_DIR$/.idea/SliderPuzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.en0mia.sliderpuzzle/com.en0mia.sliderpuzzle.iml" filepath="$PROJECT_DIR$/com.en0mia.sliderpuzzle/com.en0mia.sliderpuzzle.iml" />
+    </modules>
+  </component>
+</project>
